@@ -13,9 +13,23 @@ header {
 
 nav {
     height: 40px;
+    font-size: 11px;
+}
+nav form .btn{
+    font-size: 11px;
 }
 
 footer {
     background-color: #ff6a40;
-    padding: 95px 0px 370px 0px;
+}
+.logo{
+    width: 150px;
+}
+.cyal{
+    background-color: #1ebb88;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #1ebb88;
 }
