@@ -1,35 +1,76 @@
-* {
-    border: 1px solid black;
-}
 
 body {
     box-sizing: border-box;
 }
 
 header {
-    background-color: #ff6a40;
     height: 40px;
 }
 
 nav {
     height: 40px;
-    font-size: 11px;
+    font-size: 12px;
+    font-weight: bold;
 }
-nav form .btn{
-    font-size: 11px;
+
+nav form .btn {
+    font-size: 12px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #1ebb88;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.cards {
+    margin-top: 50px;
+}
+
+.title-2 {
+    font-size: 25px;
+}
+
+.card-e {
+    padding: 35px;
+    font-size: 22px;
 }
 
 footer {
+    padding: 95px 0px 370px 0px;
+}
+
+hr {
+    height: 1px;
+    width: 950px;
+    background-color: white;
+}
+
+/* Helpers */
+
+.bold {
+    font-weight: bold;
+}
+
+.text-orange {
+    color: #ff6a40;
+}
+
+.orange {
     background-color: #ff6a40;
 }
-.logo{
-    width: 150px;
-}
-.cyal{
+
+.cyal {
     background-color: #1ebb88;
-}
-
-
-.navbar-light .navbar-nav .active>.nav-link{
-    color: #1ebb88;
 }
