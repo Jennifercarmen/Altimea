@@ -1,0 +1,21 @@
+* {
+    border: 1px solid black;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff6a40;
+    height: 40px;
+}
+
+nav {
+    height: 40px;
+}
+
+footer {
+    background-color: #ff6a40;
+    padding: 95px 0px 370px 0px;
+}
